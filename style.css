@@ -1,0 +1,11 @@
+.img{
+    height:auto;
+    width:430px;
+}
+.about-text h3{
+    color:rgb(214, 166, 183);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
