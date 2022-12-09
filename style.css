@@ -1,15 +1,5 @@
-.img{
-    height:400px;
-    width:200px;
-}
-.about-text h3{
-    color:rgb(214, 166, 183);
-    letter-spacing: 2px;
-    font-size: 22px;
-    margin-bottom: 25px;
-    text-transform: capitalize;
-}
-.body{
+
+html,body{
     font-family: 'Bad Script', cursive;
     font-family: 'Mallanna', sans-serif;
 }
@@ -18,3 +8,21 @@
     justify-content: flex-end;
     align-items: center;
   }
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+  }
+.caption{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgb(99, 56, 78);
+}
+.span{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: black;
+}
