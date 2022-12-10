@@ -28,3 +28,21 @@ body{
 .header{
     background-color: rgb(141, 78, 114);
 }
+
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+nav.link{
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: white;
+}
+
