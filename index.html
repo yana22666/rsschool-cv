@@ -8,25 +8,122 @@
 </head>
 <body>
 
-
+    <header class="header">
     <div class="person">
-        <nav>
-            <h2 class="logo">Resu<span>me</span></h2>
-            <ul>
-                <li><a href="#">Contacts</a></li>
-                <li><a href="#">Summary</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Code</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Education</a></li>
-                <li><a href="#">English</a></li>
+        <div class="container header-container">
+            <nav class="nav">
+              <ul class="nav-list">          
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>          
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+              </ul>
+            </nav>
+            <div class="toggle">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+          </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+          <section class="section section-profile" id="profile">
+            <img src="./assets/img/avatar.jpg" alt="" class="section-profile-logo">
+            <div class="section-profile-title">
+              <h1 class="section-title main-title">Irina Inina</h1>
+              <h3 class="section-subtitle">Junior Front-End Developer</h3>
+            </div>        
+          </section>
+          <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="section-list">
+              <li class="section-item contacts-item">
+                Belarus, Minsk
+              </li>
+              <li class="section-item contacts-item">
+                Email: <a href="yana.lipping@mail.ru" title="email">yana.lipping@mail.ru</a>
+              </li>
+              <li class="section-item contacts-item">
+                Github: <a href="https://github.com/yana22666" title="github">yana22666</a>
+              </li>
+              <li class="section-item contacts-item">
+                Phone: <a href="+3753366615**" title="Phone">+375336615**</a>
+              </li>
+              <li class="section-item contacts-item">
+                Discord: <a href="https://discord.gg/EX329xWEPQ" title="github">Yana#9575</a>
+              </li>
             </ul>
-        </nav>
-    </div>
+          </section>
+          <section class="section" id="summary">
+            <h2 class="section-title">Summary</h2>
+            <p>
+                I am ready to study and learn new things for myself. I've always liked the design of websites/gaming platforms and everything related to it. Every time I wonder: how does it work? And I decided to try myself in this field, because I believe that I have the right qualities to achieve this goal, namely perseverance, patience, stress resistance. I don't go to conflicts, I don't have bad habits. I hope that in the future I will achieve this goal.
+            </p>
+          </section>
+          <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="section-list">
+              <li class="section-item">
+                Web-development:<span> HTML5, CSS3</span>
+              </li>
+              <li class="section-item">
+                Frameworks and libraries:<span> React</span>
+              </li>
+              <li class="section-item">
+                Version control:<span> GIT, Github</span>
+              </li>
+              <li class="section-item">
+                Graphics:<span> Figma</span>
+              </li>
+            </ul>
+          </section>
+          <section class="section" id="code">
+            <h2 class="section-title">Code</h2>
+    <pre class="pre"><code>
+        function createPhoneNumber(numbers){
+            return numbers.join('').replace(/(\d{3})(\d{3})(\d{4})/,'($1) $2-$3');
+            }
+        </code></pre>
+          </section>
+          <section class="section" id="courses">
+            <h2 class="section-title">Courses</h2>
+            <ul class="section-list">
+              <li class="section-item">
+                RS.SCHOOL<span> - JS / FRONT-END. STAGE 0</span>
+              </li>
+            </ul>
+          </section>
+          <section class="section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <ul class="section-list">
+              <li class="section-item">
+                <a href="https://yana22666.github.io/rsschool-cv/">CV</a>
+              </li>          
+            </ul>
+          </section>
+          <section class="section section-education" id="education">
+            <h2 class="section-title">Education</h2>
+            <p>Belarusian State Technological University</p>
+          </section>
+          <section class="section section-english" id="english">
+            <h2 class="section-title">English</h2>
+            <p>B2 - Upper-Intermediate</p>
+          </section>
+        </div>
+      </main>
 
-
-
-
-
-</body>
-</html>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div>© 2022 <a href="https://github.com/yana22666" class="github nav-link">yana22666</a></div>
+        <a href="https://rs.school/js/" class="rss"></a>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+  
+  </html>

@@ -1,23 +1,30 @@
 *{
-    padding: 0;
-    margin: 0;
-    font-family: 'News Cycle', sans-serif;
     box-sizing: border-box;
 }
-nav{
+html{
+    scroll-behavior: smooth;
+}
+body{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: space-between;
-    padding-top: 45px;
-    padding-left: 8%;
-    padding-right: 8%;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(51, 11, 30);
 }
-.logo{
-    color: rgb(27, 24, 24);
-    font-size: 35px;
-    letter-spacing: 1px;
-    cursor: pointer;
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
 }
-span{
-    color: rgba(148, 83, 120, 0.886);
+
+.header{
+    background-color: rgb(141, 78, 114);
 }
