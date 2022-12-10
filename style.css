@@ -1,28 +1,27 @@
-
-html,body{
-    font-family: 'Bad Script', cursive;
-    font-family: 'Mallanna', sans-serif;
+:root{
+    --bgcolor:#beb8ac;
+    --pink:#beb8ac;
+    --black:#3D3F42;
+    --white:#f4f7ff;
+    --gray:#d8dce4;
+    --lightgray:#8e9095;
 }
-.nav-list {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-.nav-link {
-    padding: 0 20px;
-    line-height: 50px;
-  }
-.caption{
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: rgb(99, 56, 78);
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
 }
-.span{
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: black;
+body{
+    background: var(--bgcolor);
+}
+.clearfix{
+    clear: both;
+}
+.resume-box{
+    width: 800px;
+    height: 1000px;
+    margin: 100px auto;
+    background: var(--white);
+    box-shadow: 5px 21px 20px 20px #3D3F4238;
 }
