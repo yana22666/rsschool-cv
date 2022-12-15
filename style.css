@@ -14,7 +14,7 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto0', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
@@ -241,7 +241,7 @@ body {
 }
 
 .contacts-item:nth-child(1):before {
-  background-image: url("assets/svg/1.svg");
+  background-image: url(".img/1.ico");
 }
 
 .contacts-item:nth-child(2):before {
@@ -249,7 +249,7 @@ body {
   left: 0px;
   width: 21px;
   height: 21px;
-  background-image: url("assets/svg/2.svg");
+  background-image: url(".img/2.ico");
 }
 
 .contacts-item:nth-child(3):before {
@@ -257,7 +257,7 @@ body {
   left: 0px;
   width: 19px;
   height: 19px;
-  background-image: url("assets/svg/3.svg");
+  background-image: url(".img/3.ico");
 }
 
 .contacts-item:nth-child(4):before {
@@ -265,11 +265,11 @@ body {
   left: 0px;
   width: 21px;
   height: 21px;
-  background-image: url("assets/svg/4.svg");
+  background-image: url(".img/4.ico");
 }
 
 .contacts-item:nth-child(5):before {
-  background-image: url("assets/svg/5.svg");
+  background-image: url(".img/5.ico");
 }
 
 .footer {
@@ -294,7 +294,7 @@ body {
 .rss {
   width: 121px;
   height: 45px;
-  background-image: url("./assets/svg/rss.svg");
+  background-image: url(".img/rss.ico");
   background-size: contain;
   background-repeat: no-repeat;
 }
